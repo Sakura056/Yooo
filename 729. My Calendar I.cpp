@@ -1,10 +1,13 @@
+// the ques also contains lots of functions
+
+cc
 class MyCalendar {
 public:
     set <pair<int,int>> v;
     MyCalendar() {
         
     }
-    
+    b
     bool book(int start, int end) {
         auto it = v.upper_bound({start, end}); 
         if(it != v.end() && it -> second < end) {
